@@ -1,1 +1,1 @@
-Welcome to GDG Cochin Website 
+Welcome to GDG Cochin Website.
