@@ -1,2 +1,2 @@
-Welcome to GDG Cochin Website.
-g
+Welcome to GDG Cochin Website. 
+www.gdgcochin.org
