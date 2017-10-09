@@ -1,4 +1,6 @@
 <?php
+/* Registeration page for GDG Cochin DevFest 2017 */
+/* Design inspired from Google Solve For India Regsiteration Page */
 session_start();
 $con = mysqli_connect("localhost","root","","devfest17");
 
