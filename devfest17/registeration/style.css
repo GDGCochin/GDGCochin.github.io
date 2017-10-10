@@ -1,0 +1,251 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+a,a:visited{
+	color: #4285f4;
+	text-decoration: none;
+}
+a:hover,a:focus{
+	color: #2870E9;
+}
+.head,.mobile-head{
+	display: block;
+	padding: 18px 25px;
+	height: 27px;
+	border-bottom: solid 1px #d7d7d7;
+	margin-bottom: 64px;
+	background-color: #FFFFFF;
+}
+.mobile-head{
+display: none;
+}
+.back-tab{
+	padding: 18px 0;
+	z-index: 999;
+	height: 27px;
+	border-bottom: solid 1px #d7d7d7;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.back-tab{
+	position: absolute;
+	top: 64px;
+	left: 0;
+}
+.back-tab.fixed{
+	position: fixed;
+	top: 0;
+}
+	#back{
+		color: #666666;
+		-webkit-transition:all 100ms ease-in-out;
+		-moz-transition:all 100ms ease-in-out;
+		transition:all 100ms ease-in-out;
+		font-weight: bold;
+		font-size: 16px;
+		display: block;
+		width: 97%;
+		margin: 0 auto
+	}
+		#back:hover{
+			color: #111111;
+		}
+.infos{
+	min-height: 90px;	
+	padding: 5px 30px;
+	background: #f6f6f6;
+}
+		.infos a{
+			font-size: 14px;
+			color: #999999;
+			text-decoration: none;
+		}
+		.infos a:hover{
+			text-decoration: underline;
+		}			
+	.infos .addtocalender{
+		display: block;
+		margin-top: 15px;
+		font-size: 12px;
+		color: #555555;
+		font-weight: bold;
+	}
+		.infos h5{
+			margin: 0 0 12px 0;
+			font-size: 12px;
+			color: #555555;
+			font-weight: bold;
+
+		}
+
+.main{
+	max-width: 900px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+h1{
+	font-weight: normal;
+	font-size: 42px;
+	color: #333333;
+	font-weight: 300;
+}
+p{
+	font-size:18px;
+	line-height:28px;
+	font-weight: 300;
+	color: #555555;
+	width: 100%;
+	margin-bottom: 24px;
+	max-width: 750px;
+}
+	p a,p a:visited{
+		font-weight: bold;
+	}
+.form{
+	border-top: solid 1px #d7d7d7;
+	margin: 20px 0 200px 0;
+}
+	.form .tab{
+		padding: 20px 0;
+		border-bottom: solid 1px #d7d7d7;
+	}
+		.form .tab .mdl-grid,.form .tab .mdl-cell{
+			padding: 0;
+			margin: 0;
+		}
+		.form .tab-number{
+			display: inline-block;
+			height: 40px;
+			width: 40px;
+			line-height: 40px;
+			border-radius: 50%;
+			color:#FFFFFF;
+			text-align: center;
+			margin-right: 8px;
+			font-size: 16px;
+			font-weight: normal;			
+			float: left;
+		}
+		.form .tab-title{
+			display: inline-block;
+			float: left;
+			height: 40px;
+			font-size: 16px;			
+			line-height: 40px;
+			font-weight: normal;	
+			color: #555555;			
+		}
+	.form .inactive-tab{
+		display: block;
+	}
+		.form .inactive-tab .tab-number{
+			background: #bdbdbd;
+		}
+	.form .active-tab{
+		display: none;
+	}
+		.form .active-tab .tab-number{
+			background: #4285f4;
+		}
+		.form .active-tab .tab-title{
+			color: #222222;
+		}
+		.form .active-tab .mdl-textfield{
+			width: 100%;
+		}
+	.form .success-tab{
+		display: none;
+	}
+		.form .success-tab .tab-number{
+			background: #34a853;
+		}
+		.form .success-tab .tab-number i{
+			line-height: inherit;
+		}
+
+
+	.form{
+		font-weight: normal;
+	}
+	.form h3{
+		display: inline-block;
+		height: 40px;
+		line-height: 40px;
+		font-size: 18px;
+		font-weight: normal;
+		color: #333333;
+		margin:0;
+		padding:0;
+	}
+	.form .fake-input{
+		width: 100%;
+		font-weight: normal;
+		display: inline-block;
+		border-bottom: solid 1px #d7d7d7;
+	}
+	.form .custom-label{
+		margin-top: 20px;
+		margin-bottom: 10px;
+		display: block;
+		color: #999999;
+	}
+	.form .customform-feild{
+		height: auto;
+	}
+	.form label.mdl-radio,.form label.mdl-checkbox{
+		color:#666666;
+		margin-bottom: 6px;
+	}
+	.form label.privacy_conf{
+		display: inline-block;
+		height: auto;
+		margin:16px 0 10px;
+		width: 100%;
+		max-width: 500px;
+	}
+	.form .edit_form{
+		font-size: 16px;
+		color:#4285f4;
+		float: right;
+		display: inline-block;
+		height: 40px;
+		line-height: 40px;
+		cursor: pointer;
+
+	}
+.footer{
+	height: 35px;
+	padding: 30px;
+	background-color: #f6f6f6;
+	color:#737373;
+	line-height: 35px;
+}
+.gdglogo{
+	width: 180px;
+    height: 60px;
+    display: inline-block;
+    background-size: 100% auto;
+}
+@media only screen and (max-width: 600px){
+	.mobile-head{
+		display: block;	
+	}
+	.head{display: none;}
+	#back{
+		width: 90%;
+	}
+	.form .edit_form{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+p.error{
+	padding: 30px;
+	background-color: #FFBBBB;
+	color: #DD0000;
+	font-size: 14px;
+}
