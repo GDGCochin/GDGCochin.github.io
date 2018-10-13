@@ -25,3 +25,35 @@
 		font-size: 16px;
 		line-height: 1.6;
 	}
+
+.partners-wrapper{
+	display:grid;
+	grid-gap:8px;
+	margin: 30px 0;
+	grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+}
+@media (min-width: 640px)
+{
+	.partners-wrapper {
+    	grid-template-columns: repeat(4, 1fr);
+	}
+}
+@media (min-width: 812px)
+{
+	.partners-wrapper {
+    	grid-template-columns: repeat(5, 1fr);
+	}
+}
+	.partners-wrapper a{
+		display: flex;
+		flex-direction:row;
+		align-items:center;
+		justify-content:center;
+		padding: 24px;
+		  border: none!important;
+		  outline: none!important;;
+		  text-decoration: none;
+	}
+		.partners-wrapper a img{
+			width: 100%;
+		}
