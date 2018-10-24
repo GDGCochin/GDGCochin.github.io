@@ -106,14 +106,14 @@ header{
       border-color: rgb(103, 58, 183);
     }
   
-header.scroll{
+header.scroll,header.scrollfixed{
   background: #FFFFFF;
   box-shadow: 0 2px 2px rgba(0,0,0,0.3);
 }
-  header.scroll ul.navigation li a{
+  header.scroll ul.navigation li a,header.scrollfixed ul.navigation li a{
       color: rgba(90,90,90,0.8);
   }
-  header.scroll ul.navigation li.selected a{
+  header.scroll ul.navigation li.selected a,header.scrollfixed ul.navigation li.selected a{
       color: rgba(90,90,90,1);
   }
 footer{
@@ -162,7 +162,9 @@ footer{
   }
 
 
-
+.minheight300{
+  min-height: 300px;
+}
 
 @-webkit-keyframes ani-mouse {0% {opacity: 1; top: 29%; } 15% {opacity: 1; top: 50%; } 50% {opacity: 0; top: 50%; } 100% {opacity: 0; top: 29%; } }
 @-moz-keyframes ani-mouse {0% {opacity: 1; top: 29%; } 15% {opacity: 1; top: 50%; } 50% {opacity: 0; top: 50%; } 100% {opacity: 0; top: 29%; } }

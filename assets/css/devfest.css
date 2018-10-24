@@ -57,3 +57,25 @@
 		.partners-wrapper a img{
 			width: 100%;
 		}
+
+.scheduletable{
+	width: 95%;
+	max-width: 1000px;
+	margin: 30px auto 100px;
+	border:1px solid  #EEEEEE;
+}
+	.scheduletable td,.scheduletable th{
+		padding: 20px 	12px;
+		border:1px solid  #EEEEEE;
+	}
+	.scheduletable tr td:first-child{
+		text-align: center;	
+		width: 100px;
+	}
+	.scheduletable th{
+		color: #555555;
+	}
+	.scheduletable tr.track td,.scheduletable tr.track th{
+		background-color: #F8F8F8;
+		text-align: center;
+	}

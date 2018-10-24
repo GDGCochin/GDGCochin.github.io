@@ -39,7 +39,9 @@ function scrollPositionUpdate(){
 	
     $('.navigation li a').each(function () {
         var href = $(this).attr("href");
-        if(href == "#"){return;}
+        var validHash = new RegExp("(^#[a-z])");
+
+        if(!validHash.test(href)){return;}
 
         var refElement = $(href);
         
